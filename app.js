@@ -1,5 +1,7 @@
 function calcularDescuento(precio, porcentajeDescuento) {
+    let precioFinal = 0;
+
     const descuento = (precio * porcentajeDescuento) / 100;
-    const precioFinal = precio - descuento;
+    precioFinal = precio - descuento;
     return precioFinal;
 }
